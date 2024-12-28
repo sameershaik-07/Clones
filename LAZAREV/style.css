@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: gilroy;
+  color: #FFF;
+}
+html, body {
+  width: 100%;
+  height: 100%;
+}
+nav{
+    position: fixed;
+    /* background-color: red; */
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    padding: 2vw 15vw ;
+    justify-content: space-between;
+}
+.nav-part2{
+    display: flex;
+    padding-left: 2vw;
+    align-items: flex-start;
+    
+}
+.nav-part2 h4{
+    margin-left: 2vw;
+    font-size:0.7vw;
+    text-transform: uppercase;
+    font-weight: 600;
+
+}
+#nav-bottom{
+    height :0%;
+    width: 70%;
+    /* background-color: red; */
+    position: absolute;
+    bottom:0%;
+    transition: all ease 0.65s;
+    border-bottom: 1px solid #dadada;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding:2vw 15vw;
+    /* color:rgb(207, 16, 16); */
+    /* gap:2vw; */
+
+}
+/* .bottom-div{
+    /* background-color: red; */
+/* } */ 
+nav:hover #nav-bottom{
+    height: 100%;
+    bottom: -100%;
+}
+#page1{
+    height: 100vh;
+    width: 100%;
+    background-color: #111;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#page1 h1{
+    font-size: 8.5vw;
+    text-transform: uppercase;
+    font-size: 900;
+    line-height: 8.5vw;
+}
+
+#page1 span{
+    /* height:4vw; */
+    border-radius: 48%;
+    /* width: 2vw; */
+    font-size: 90px;
+    /* margin-bottom: 30vw; */
+    background-color: rgb(64, 164, 79);
+}
+
+#page1 p{
+    text-align: center;
+    font-weight: 400;
+    margin-top: 3vh;
+}
+#page1-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page1-1 h4{
+    font-weight: 400;
+    font-size: 1vw;
+    text-transform: lowercase;
+    margin-top: 0.5vw;
+    padding: 5px 12px;
+    border: 1px solid #9b9b9b;
+    border-radius: 50px;
+}
+#page1-1 h4:nth-last-child(2){
+    border: none;
+    padding: 2px;
+}
+#page2{
+    height: 100vh;
+    width: 100%;
+    background-color: #111;
+}
+
+nav button{
+    color: black;
+}
